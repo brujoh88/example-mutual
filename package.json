@@ -1,0 +1,15 @@
+{
+  "name": "mutual-ordenes",
+  "version": "1.0.0",
+  "description": "Gestionar las ordenes de compras con los afiliados",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js"
+  },
+  "author": "Gustavo Tiseira - Hernan Romero",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.17.1",
+    "mysql": "^2.18.1"
+  }
+}
