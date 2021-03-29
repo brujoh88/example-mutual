@@ -4,7 +4,7 @@ const port = 3000
 
 app.use(express.static(__dirname + '/public'))
 
-var mysql = require('mysql')
+/* var mysql = require('mysql')
 var connection = mysql.createConnection({
   host: 'localhost',
   user: 'root',
@@ -26,7 +26,7 @@ const call = (dato) => {
 }
 app.get('/getData', (req, res) => {
   res.status(200).send(array)
-})
+}) */
 
 app.listen(port, () =>
   console.log(`La app esta escuando en la URL http://localhost:${port}`)
