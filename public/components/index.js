@@ -91,7 +91,10 @@ Vue.component('indexPage', {
   },
   methods: {
     pageToNewAfiliado() {
+<<<<<<< HEAD
       this.modificacion = false
+=======
+>>>>>>> e1711e67d587d00c94ee399f5675dfccdd5c47f9
       this.newAfiliado = !this.newAfiliado
     },
     pageToAfiliado(legajo) {
